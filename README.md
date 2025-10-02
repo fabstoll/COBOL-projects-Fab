@@ -14,4 +14,9 @@ MàJ_Fichier : Il s'agit d'une mis à jour du statut des lignes 'contrats' en fo
  - Tableau_COPY : Tableau des données du fichier d'entrée organisé en tableau, avec des structures de données de type REDEFINES. Ce tableau est 'appelé' dans le programme 'COMPLETER-FICHIER.cbl' avec la clause COPY.
 
 Statistique télé :
+ - FICENT.txt : Fichier d'entrée avec des données statistiques organisée ainsi : Par exemple l'enregistrement "3330003" correspond à un 3 téléspectateurs devant France 3 le mercredi de 20 à 21 heures.
+                 - Les chaînes	: TF1, France 2, France 3, CANAL +, ARTE et M6 
+                 - Les jours	: 1 pour lundi, 2 pour mardi, etc. 
+                 - Les franches horaires	: 1 pour 18-19 heure, 2 pour 19-20, etc.
+ - STATISTIC-TELE.cbl : Un programme permettant différentes interprétations statistiques des données.
  
