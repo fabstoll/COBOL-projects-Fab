@@ -12,3 +12,6 @@ Remboursement-secu :
 MàJ_Fichier : Il s'agit d'une mis à jour du statut des lignes 'contrats' en fonction du statut des lignes 'têtes'.
  - FICENT.txt : Fichier d'entrée des contrats et têtes avant MàJ.
  - Tableau_COPY : Tableau des données du fichier d'entrée organisé en tableau, avec des structures de données de type REDEFINES. Ce tableau est 'appelé' dans le programme 'COMPLETER-FICHIER.cbl' avec la clause COPY.
+
+Statistique télé :
+ 
