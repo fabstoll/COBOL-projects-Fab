@@ -44,7 +44,7 @@
       *--------------------------------------------- 
        DEPLACEMENT-MOT.
       *--- Comme l'inversion a également pris en compte les espaces,
-      *    il faut déplacer le mot en début d'
+      *    il faut déplacer le mot en début de l'intervalle.
    
        STRING FUNCTION TRIM(WS-CHAINE-INVERSEE LEADING)
            DELIMITED BY SIZE
