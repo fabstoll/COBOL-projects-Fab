@@ -25,9 +25,9 @@ Fusion de fichiers :
 
 Il s'agit de fusionner 2 fichiers (FIC1.txt et FIC2.txt).
 La consigne est la suivante : Vous devez fusionner ces 2 fichiers en conservant :
-    • les enregistrements du fichier 1 absents du fichier 2
-    • les enregistrements du fichier 2 absents du fichier 1
-    • un enregistrement si le contrat est présent à la fois dans le fichier 1 et dans le fichier 2.
+ - les enregistrements du fichier 1 absents du fichier 2
+ - les enregistrements du fichier 2 absents du fichier 1
+ - un enregistrement si le contrat est présent à la fois dans le fichier 1 et dans le fichier 2.
 Les deux fichiers sont triés sur la référence de contrat.
 On renseignera pour chaque contrat le plus d'informations disponibles (code situation, code intermédiaire).
 
