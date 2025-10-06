@@ -20,7 +20,9 @@ Statistique télé :
                  - Les franches horaires	: 1 pour 18-19 heure, 2 pour 19-20, etc.
  - STATISTIC-TELE.cbl : Un programme permettant différentes interprétations statistiques des données.
 
+
 Fusion de fichiers :
+
 Il s'agit de fusionner 2 fichiers (FIC1.txt et FIC2.txt).
 La consigne est la suivante : Vous devez fusionner ces 2 fichiers en conservant :
     • les enregistrements du fichier 1 absents du fichier 2
