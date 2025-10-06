@@ -19,4 +19,14 @@ Statistique télé :
                  - Les jours	: 1 pour lundi, 2 pour mardi, etc. 
                  - Les franches horaires	: 1 pour 18-19 heure, 2 pour 19-20, etc.
  - STATISTIC-TELE.cbl : Un programme permettant différentes interprétations statistiques des données.
+
+Fusion de fichiers :
+Il s'agit de fusionner 2 fichiers (FIC1.txt et FIC2.txt).
+La consigne est la suivante : Vous devez fusionner ces 2 fichiers en conservant :
+    • les enregistrements du fichier 1 absents du fichier 2
+    • les enregistrements du fichier 2 absents du fichier 1
+    • un enregistrement si le contrat est présent à la fois dans le fichier 1 et dans le fichier 2.
+Les deux fichiers sont triés sur la référence de contrat.
+On renseignera pour chaque contrat le plus d'informations disponibles (code situation, code intermédiaire).
+
  
