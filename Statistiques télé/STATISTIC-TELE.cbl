@@ -117,7 +117,8 @@
            .
 
        TRAITEMENT-ENREG.
-           ADD F-NbrSpe TO NB-SPECTATEURS(F-Chaine, F-Jour, F-Tranche).
+           ADD F-NbrSpe TO NB-SPECTATEURS(F-Chaine, F-Jour, F-Tranche)
+               W-NBSPECTOT
 
        TRAITEMENT.
 
@@ -177,18 +178,7 @@
            MOVE ZERO TO W-NBRSPECTEMP.
 
       *Calcul du nombre total de spectateurs tous les jours,
-      *toutes les tranches, toutes les chaines
-
-           PERFORM VARYING CPT1 FROM 1 BY 1 UNTIL CPT1 > 6
-                PERFORM VARYING CPT2 FROM 1 BY 1 UNTIL CPT2 > 7
-                    PERFORM VARYING CPT3 FROM 1 BY 1 UNTIL CPT3 > 7
-                     IF NB-SPECTATEURS(CPT1, CPT2, CPT3) > 0
-                        ADD NB-SPECTATEURS(CPT1, CPT2, CPT3) 
-                        TO W-NBSPECTOT
-                     END-IF
-                    END-PERFORM
-                END-PERFORM
-           END-PERFORM
+      *toutes les tranches, toutes les chaines déjà fait dans TRAITEMENT-ENREG
       
       *calcul du nombre de spectateurs de la chaine 4,
       *tous les jours et toutes les tranches.
@@ -265,3 +255,4 @@
 
            DISPLAY 'Fin anormale'
            PERFORM FIN-TRT.
+
